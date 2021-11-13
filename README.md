@@ -1,25 +1,10 @@
 # reactn-stack-nav-folder
-ReadMe – React Native / React Mobile:
-We created navigation with this application through different ways: Stack, Drawer, and Tab navigation:
-Stack is the way of creating buttons (button based) where we navigate between screens where it manages the stack of screens
-Drawer is the way where we can slide or swipe of the side of the screen to navigate to different activity. It is where a user can navigate from one screen to another screen very easily by just pulling out the drawer. 
-Tab navigation is the way of creating a top or bottom bar navigation on the same screen of the activity.
+![image](https://user-images.githubusercontent.com/83717929/141599796-90fc5135-59af-4aa3-8a71-f679ec2cd892.png)
+![image](https://user-images.githubusercontent.com/83717929/141599817-e6436f3c-d1f8-432e-a3ab-064118156a0e.png)
+![image](https://user-images.githubusercontent.com/83717929/141599830-13478dc0-2e83-4d41-9bbc-4baa52ebc2ef.png)
 
-We implemented this by using NavigationContainer where we import install Navigation controller.
-User Guide:
-We need to download and install expo.
-npm install @react-navigation/native
-expo install react-native-screens react-native-safe-area-context
-npm install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native-stack (with button based navigation)
-npm install @react-navigation/bottom-tabs (with bottom tab bar navigation)
+![screenshot1 stack-nav home](https://user-images.githubusercontent.com/83717929/141599835-bdc8c87c-d31d-4968-a067-25ecb1ff1fc8.PNG)
+![screenshot2 stack-nav details](https://user-images.githubusercontent.com/83717929/141599836-96ddf830-8a95-4584-809a-83199d9b5464.PNG)
+![screenshot3 VS Code Folder stack-nav](https://user-images.githubusercontent.com/83717929/141599838-6d31b0f4-f0da-4474-89da-e09cd5f76784.PNG)
 
-With App.js, its important to create a constant “const” method that will decide how the feature will look or present the feature. This can be accomplish by the following:
-•	For stack nav app: “create Stack = createNativeStackNavigator();”
-•	For tab nav app: “create Tab = createBottomTabNavigator();”
-•	For drawer app:  “const Drawer = createDrawerNavigator();”
 
-expo install @react-navigation/drawer (with drawer/swipe-slide navigation)
-Please make sure that you check the directory or files in the folder by typing “ls” in the View Terminal of Visual Studio Code. Then go inside of the direct folder by typing “cd (foldername)”.
-This application just runs in a local host by typing “npm start” or “expo start” in the terminal.
-By the time it initially runs in the browser, it will give you the option either to run as is with the web browser (right click and click “inspect”) where you can toggle device toolbar to full page or web mobile app-like emulator. It also give you the option to run in Mobile emulator like Android Mobile using Android Studio or iOS mobile application through Xcode/Swift emulator.  
